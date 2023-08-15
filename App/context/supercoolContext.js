@@ -40,7 +40,6 @@ export const SupercoolAuthContextProvider = (props) => {
 
   async function storeDataInFirebase(metadata) {
     const docRef = await addDoc(collectionRef, metadata);
-    console.log("Data stored successfully! Document ID:", docRef.id);
   }
 
   const updateForPurchase = async (tokenId) => {
@@ -76,61 +75,22 @@ export const SupercoolAuthContextProvider = (props) => {
     if (window.ethereum) {
       try {
         const networkId = await window.ethereum.request({ method: 'net_version' });
-        console.log(networkId);
         if (Number(networkId) !== 5611) {
           alert("Please switch to the correct network.");
           return;
         }
 
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-        // console.log(accounts);
-        // if (accounts.length > 0) {
-        //   console.log(walletConnected);
-        //   setWalletConnected(true);
-        //   localStorage.setItem('address', accounts[0]);
-        // }
+        if (accounts.length > 0) {
+          setWalletConnected(true);
+          localStorage.setItem('address', accounts[0]);
+        }
       } catch (error) {
         console.error("Error while logging in:", error);
       }
     }
   };
-
-
-  // const login = async () => {
-  //   if (!window.ethereum) return;
-  //   try {
-  //     const accounts = await window.ethereum.request({
-  //       method: "eth_requestAccounts",
-  //     });
-  //       setWalletConnected(true);
-
-  //     if (typeof window !== 'undefined') {
-  //       localStorage.setItem('address', accounts[0]);
-  //     }
-  //     console.log('network--',window.ethereum.networkVersion);
-  //     if (window.ethereum.networkVersion === '5600') {
-  //       setWalletConnected(true);
-  //     } else {
-  //       await window.ethereum.request({
-  //         method: 'wallet_switchEthereumChain',
-  //         params: [{ chainId: '5600' }] 
-  //       });
-  //       setWalletConnected(true);
-  //     }
-
-  //     if (ethereum && ethereum.selectedAddress) {
-  //       const address = await signer.getAddress();
-
-  //     } else {
-  //       console.log('No wallet connected or logged out');
-  //     }
-  //     getAllNfts();
-  //   } catch (error) {
-  //     console.error('Login error:', error);
-  //   }
-  //   getAllNfts();
-  // }
-
+ 
   const logout = async () => {
     localStorage.removeItem('address');
     setWalletConnected(false);
@@ -168,7 +128,6 @@ export const SupercoolAuthContextProvider = (props) => {
         allnfts.push(item);
         setAllNfts(allnfts);
       }
-      console.log('all nfts--',allnfts);
     } catch (error) {
       console.error("Error fetching data: ", error);
       return [];
