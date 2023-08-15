@@ -83,15 +83,13 @@ const Item = () => {
 
 										<div className="mb-8 flex items-center space-x-4 whitespace-nowrap">
 											<div className="flex items-center">
-												<Tippy content={<span>ETH</span>}>
+												<Tippy content={<span>TBNB</span>}>
 													<span className="-ml-1">
-														<svg className="icon mr-1 h-4 w-4">
-															<use xlinkHref="/icons.svg#icon-ETH"></use>
-														</svg>
+															<img  className="icon mr-1 h-4 w-4" src='/bnb-logo.png'></img>
 													</span>
 												</Tippy>
 												<span className="text-green text-sm font-medium tracking-tight">
-													{item.price} ETH
+													{item.price} TBNB
 												</span>
 											</div>
 											<span className="dark:text-jacarta-300 text-jacarta-400 text-sm">

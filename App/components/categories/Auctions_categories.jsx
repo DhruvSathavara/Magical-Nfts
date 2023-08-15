@@ -126,7 +126,7 @@ const Auctions_categories = () => {
                         <span>
                           <Tippy
                             content={
-                              <span className="py-1 px-2 block">ETH</span>
+                              <span className="py-1 px-2 block">TBNB</span>
                             }
                           >
                             <svg className="h-4 w-4">

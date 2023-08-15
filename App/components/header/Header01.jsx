@@ -275,11 +275,10 @@ export default function Header01() {
                           Balance
                         </span>
                         <div className="flex items-center">
-                          <svg className="icon icon-ETH mr-1 h-5 w-5">
-                            <use xlinkHref="/icons.svg#icon-ETH"></use>
-                          </svg>
+                        <img  className="icon mr-1 h-4 w-4" src='/bnb-logo.png'></img>
+
                           <span className="text-green text-lg font-bold">
-                            10 ETH
+                            10 TBNB
                           </span>
                         </div>
                       </div>

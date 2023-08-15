@@ -166,7 +166,7 @@ const Top_collection = () => {
                       </a>
                     </Link>
                     <span className="dark:text-jacarta-300 text-sm">
-                      {amount} ETH
+                      {amount} TBNB
                     </span>
                   </div>
                 </div>

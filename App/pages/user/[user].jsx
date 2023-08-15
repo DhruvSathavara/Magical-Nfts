@@ -111,7 +111,7 @@ const User = () => {
                 {username ? username : "user"}
               </h4>
               <div className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 mb-8 inline-flex items-center justify-center rounded-full border bg-white py-1.5 px-4">
-                <Tippy content="ETH">
+                <Tippy content="TBNB">
                   <svg className="icon icon-ETH mr-1 h-5 w-5">
                     <use xlinkHref="/icons.svg#icon-ETH"></use>
                   </svg>

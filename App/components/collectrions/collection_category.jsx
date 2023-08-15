@@ -80,7 +80,7 @@ const Collection_category = ({ bgWhite = false }) => {
 																</span>
 															</a>
 														</Link>
-														<span className="dark:text-jacarta-300 text-sm">{amount} ETH</span>
+														<span className="dark:text-jacarta-300 text-sm">{amount} TBNB</span>
 													</div>
 												</div>
 											);

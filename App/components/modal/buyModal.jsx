@@ -91,7 +91,7 @@ const BuyModal = () => {
                       </svg>
                     </span>
                     <span className="dark:text-jacarta-100 text-sm font-medium tracking-tight">
-                      1.55 ETH
+                      1.55 TBNB
                     </span>
                   </span>
                   <div className="dark:text-jacarta-300 text-right text-sm">
@@ -113,7 +113,7 @@ const BuyModal = () => {
                       </svg>
                     </span>
                     <span className="text-green font-medium tracking-tight">
-                      1.55 ETH
+                      1.55 TBNB
                     </span>
                   </span>
                   <div className="dark:text-jacarta-300 text-right">
