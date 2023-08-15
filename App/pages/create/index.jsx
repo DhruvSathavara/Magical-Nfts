@@ -20,7 +20,7 @@ const Create = () => {
   const [category, setCategory] = useState("Profile avatar" || category);
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState("0.1");
-  const [chain, setChain] = useState("Patex Sepolia" || chain);
+  const [chain, setChain] = useState("opBNB" || chain);
   const [rendersellNFT, setrendersellNFT] = useState(false)
   const [modalOpen, setModalOpen] = useState(false);
   const [generateLoading, setGenerateLoading] = useState(false);
