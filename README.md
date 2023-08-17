@@ -3,7 +3,7 @@
 
 ## At Magical NFTs The magic of AI and the power of blockchain converge. Magical NFTs is the Ai generative NFT marketplace for PFPs, game assets, metaverse avatars, and costumes.
 
-## Deploed on opBNB
+# Deploed on opBNB
 
 ```
 
@@ -21,7 +21,24 @@
 
 ```
 
-#### https://opbnbscan.com/address/0x513d1881FA21650Da616D6db4DAA3Fcae0285A4d
+#### op BNB Explorer : https://opbnbscan.com/address/0x513d1881FA21650Da616D6db4DAA3Fcae0285A4d
+
+# Configure the project
+
+```
+git clone https://github.com/DhruvSathavara/Magical-Nfts.git
+
+```
+
+```
+npm install
+```
+##### Create .env file for environment variables
+
+# Run the project
+```
+npm run dev
+```
 
 ## Welcome
 
@@ -59,3 +76,11 @@
 ![11](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/98922017-67e4-4531-a84f-b751a521884b)
 
 ![12](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/af4139ab-7672-45fe-af43-7288601c04ba)
+
+
+
+# Live project
+
+https://magical-nfts-opbnb.vercel.app/
+
+
