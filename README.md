@@ -23,37 +23,37 @@
 
 #### https://opbnbscan.com/address/0x513d1881FA21650Da616D6db4DAA3Fcae0285A4d
 
-### Welcome
+## Welcome
 
 ![1](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/2169c3f9-5751-45c8-adf6-448acd3cfcb0)
 
-### Intense Originality
+## Intense Originality
 
 ![2](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/f7760120-344f-42f0-a2d6-f6137295b79d)
 
-### Write/Generate/Create Prompt
+## Write/Generate/Create Prompt
 
 ![3](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/2bddb61f-31e2-46cc-b69e-6ecad2d598d8)
 
-### AI Generated Images
+## AI Generated Images
 
 ![4](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/271a4043-9011-4bc6-b914-3fd2a9101507)
 
 ![5](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/6d67d381-adae-4a37-adff-501ed7a28587)
 
-### Mint image as an NFT
+## Mint image as an NFT
 
 ![6](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/08c32ded-3020-4b13-b7cf-856fffcf11c9)
 
 ![7](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/24b646fd-cef1-4a3e-824a-b628ad353c68)
 
-### Profile
+## Profile
 
 ![8](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/56371450-7486-4be8-a1ac-edf7b9f95c73)
 
 ![9](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/99063515-3ffc-4c3a-8da3-436291a1457a)
 
-### Purchase NFT
+## Purchase NFT
 ![10](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/a4a6147d-603f-41bd-a82b-121736636bb0)
 
 ![11](https://github.com/DhruvSathavara/Magical-Nfts/assets/69969675/98922017-67e4-4531-a84f-b751a521884b)
